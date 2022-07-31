@@ -439,6 +439,9 @@ background-image: url('../images/youtube.svg');
   bottom: 28px;
   right: 260px;
  }
+ .footer__item--company {
+  padding-left: 180px;
+ }
 }
 
 
