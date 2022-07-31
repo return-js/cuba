@@ -415,7 +415,9 @@ background-image: url('../images/youtube.svg');
  width: 17px;
  top: 1px;
 }
-
+.menu__btn {
+ display: none;
+}
 
 
 .footer__copy {
@@ -423,4 +425,33 @@ background-image: url('../images/youtube.svg');
  text-align: center;
  font-size: 14px;
  line-height: 19px;
+}
+@media (max-width: 700px){
+ .header__title {
+  font-size: 120px;
+  line-height: 150px;
+ }
+ .header__text {
+  font-size: 20px;
+ }
+ .menu {
+  position: relative;
+ }
+ .menu__btn {
+  display: block;
+  width: 60px;
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+ }
+ .menu__btn span {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #FFD600;
+  height: 4px;
+ }
+ .menu__list {
+  display: none;
+ }
 }
