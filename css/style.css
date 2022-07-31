@@ -355,11 +355,12 @@ font-size: 24px;
  justify-content: space-between;
 }
 .footer__item {
- width: 140px;
+ width: 50%;
+ margin-bottom: 35px;
+ padding-right: 25px;
 }
 .footer__item--company {
- width: 300px;
- padding-left: 180px;
+ padding-left: 0;
 }
 
 
@@ -472,6 +473,9 @@ background-image: url('../images/youtube.svg');
   width: 50%;
   margin-bottom: 35px;
   padding-right: 25px;
+ }
+ .footer__item--company {
+  padding-left: 0;
  }
 }
 
